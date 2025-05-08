@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #4b4747;
+    line-height: 1.6;
+    background-image: url(https://transmisoraquindio.com/wp-content/uploads/2020/08/America-vs-Nacional-8-1920x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+header {
+    background-color: #2e2e2e;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#inicio {
+    background-color: #a10000;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#inicio h2 {
+    font-size: 36px;
+}
+
+#inicio p {
+    font-size: 20px;
+}
+
+
+#equipo {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 20px 400px 20px 400px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgb(46, 46, 46);
+    
+}
+
+#equipo h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
+}
+
+
+#partidos {
+    padding: 40px 20px;
+    background-color: #a10000;
+    color: #ffffff;
+    margin: 20px 500px 20px 500px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgb(85, 85, 85);
+}
+
+#partidos h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+#partidos ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#partidos ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#noticias {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 10px 300px 10px 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgb(85, 85, 85);
+
+}
+
+#noticias h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#noticias ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#noticias ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 14px;
+}
+button{
+    background-color: #a10000;
+    float: center;
+    width: 200px;
+    height: 40px;
+    color: white;
+}
